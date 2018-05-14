@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<?php include('server.php'); ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>EASEarch - Easy Search, Easy to Go!</title>
+    <!-- BOOTSTRAP CORE STYLE  -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME ICONS  -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE  -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+</head>
+<style>
+body {
+	background-image: url('assets/img/bg.jpg');
+	height: 100vh;
+	background-size:cover;
+	background-position: center;
+
+	
+}
+</style>
+<body>
+    <header>
+	
+		<div class="row">
+                <div class="col-md-6">
+          		<img width = "300px" src = 'assets/img/logo.png' align = "left">
+                </div>
+                <div class="col-md-6" align = "center" padding-left = "100px"> <br><br>
+                   <strong>Email: </strong><a href="#" target="_blank">info@domain.com</a>
+            &nbsp;
+            <strong>Support: </strong>(04)123-123 </p>
+                </div>
+
+            </div>
+
+    </header>
+
+    <div class="content-wrapper" >
+        <div class="container" >
+    <div class="center" align = "center">
+	
+	<!-- SIGN UP -->
+		
+	<div class = "form">
+        <form class="signup-form">
+            <div class="row">
+                <div class="col-md-12">
+								<a href = "home.html"
+				<button type="button" class="close" aria-hidden="true">×</button> </a>
+                    <h4 class="page-head-line">Please Fill Up </h4>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                   <h4> Sign Up with Facebook <strong> / </strong>Google :</h4>
+                    <BR>
+                    <a class="btn btn-social btn-facebook" data-toggle="modal" data-target = "#fb">
+                            <i class="fa fa-facebook"  ></i>&nbsp; Facebook Account</a>
+                    &nbsp;OR&nbsp;
+
+                        <div style = "background-color: #3b5998; "class="modal fade" id="fb" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none; ">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header"> <i i class="fa fa-facebook" style = "font-size: 42pt;"></i>
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    
+                                        </div>
+                                        <div class="modal-body" align = "left">
+                                        
+                                            <div class="modal-body" align = "left">
+                                        
+                                            <input type="text" class="form-control" placeholder="Email/Mobile Number" />
+                                            <input type="password" class="form-control" placeholder="Password" />
+
+                                            </div>
+                                            <div class="modal-footer" style = "text-align: center;">
+                                            <a href = "#" >Forgot Password</p>
+                                            <button  type="button" class="btn btn-primary">LOGIN</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
+
+
+                    <a class="btn btn-social btn-google" data-toggle="modal" data-target = "#gg">
+                            <i class="fa fa-google-plus"></i>&nbsp; Google Account</a>
+                    
+
+                    <div style = "background-color: #c32f10; "class="modal fade" id="gg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none; ">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header"><i class="fa fa-google-plus" style = "font-size: 42pt;"></i>
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                        
+                                        </div>
+                                        <div class="modal-body" align = "left">
+                                        
+                                            <div class="modal-body" align = "left">
+                                        
+                                            <input type="text" class="form-control" placeholder="Email/Mobile Number" />
+                                            <input type="password" class="form-control" placeholder="Password" />
+
+                                            </div>
+                                            <div class="modal-footer" style = "text-align: center;">
+                                            <a href = "#" >Forgot Password</p>
+                                            <button  type="button" class="btn btn-primary">SIGN IN</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
+
+
+
+                     <br><br><p class = "message" align = "center"><a href = "#" > I already have an Account.</a> </p>
+                     
+                <div class="row" align = "left">
+                    <form name="register" action="save.php" method="post">
+					<?php include('errors.php');					
+					?>
+					
+                     <label>Enter Email ID : </label>
+                        <input type="text" class="form-control" name="username" placeholder = "@codename123"/>
+                    <label>Enter Password :  </label>
+                        <input type="password" class="form-control" name="password" placeholder = "Minimum of 8 characters"/>
+                    <label>Re-enter Password :  </label>
+                        <input type="password" class="form-control" name="repassword"   placeholder = "Re-enter Password"/>	
+                    <label>Enter Mobile Number : </label>
+                        <input type="text" class="form-control" name="mobile" placeholder = "Enter 11-digit number"/>
+                     </form>   
+                </div>         
+                        
+                        <hr />
+                        <a href = "dashboard.html" type = "submit"  class = " btn btn-new" > Register</a> &nbsp;
+                </div>
+
+               
+
+            </div>
+			</form>
+			</div>
+			<!-- end of SIGN UP -->
+			
+	<div class = "form" >
+        <form class="login-form" >
+            <div class="row">
+                <div class="col-md-12">
+				<a href = "home.html"
+				<button type="button" class="close" aria-hidden="true">×</button> </a>
+                    <h4 class="page-head-line">Please Login To Enter </h4>
+
+                </div>
+
+            </div>
+            <div class="row" >
+                <div class="col-md-12">
+                   <h4> Login with Facebook <strong> / </strong>Google :</h4>
+                    <BR>
+                    <div class="row">
+                <div class="col-md-12">
+                   <h4> Sign Up with Facebook <strong> / </strong>Google :</h4>
+                    <BR>
+                    <a class="btn btn-social btn-facebook" data-toggle="modal" data-target = "#ff">
+                            <i class="fa fa-facebook"  ></i>&nbsp; Facebook Account</a>
+                    &nbsp;OR&nbsp;
+
+                        <div style = "background-color: #3b5998; "class="modal fade" id="ff" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none; ">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header"> <i i class="fa fa-facebook" style = "font-size: 42pt;"></i>
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    
+                                        </div>
+                                        <div class="modal-body" align = "left">
+                                        
+                                            <div class="modal-body" align = "left">
+                                        
+                                            <input type="text" class="form-control" placeholder="Email/Mobile Number" />
+                                            <input type="password" class="form-control" placeholder="Password" />
+
+                                            </div>
+                                            <div class="modal-footer" style = "text-align: center;">
+                                            <a href = "#" >Forgot Password</p>
+                                            <button  type="button" class="btn btn-primary">LOGIN</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
+
+
+                    <a class="btn btn-social btn-google" data-toggle="modal" data-target = "#goo">
+                            <i class="fa fa-google-plus"></i>&nbsp; Google Account</a>
+                    
+
+                    <div style = "background-color: #c32f10; "class="modal fade" id="goo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none; ">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header"><i class="fa fa-google-plus" style = "font-size: 42pt;"></i>
+                                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                        
+                                        </div>
+                                        <div class="modal-body" align = "left">
+                                        
+                                            <div class="modal-body" align = "left">
+                                        
+                                            <input type="text" class="form-control" placeholder="Email/Mobile Number" />
+                                            <input type="password" class="form-control" placeholder="Password" />
+
+                                            </div>
+                                            <div class="modal-footer" style = "text-align: center;">
+                                            <a href = "#" >Forgot Password</p>
+                                            <button  type="button" class="btn btn-primary">SIGN IN</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                
+                        </div>
+
+
+
+
+
+
+                    <hr />
+                     <h4> Or Login with <strong>EaSearch Account  :</strong></h4>
+                    <br />
+                    <div class="row" align = "left">
+                     <label>Enter Email ID or Mobile Number : </label>
+                        <input type="text" class="form-control" />
+                        <label>Enter Password :  </label>
+                        <input type="password" class="form-control" />
+						<hr />
+                    </div>
+		<div class="row">
+                <div class="col-md-12">
+                        <a href="dashboard.html" class="btn btn-info"><span class="glyphicon glyphicon-user"></span> &nbsp;Log Me In </a>&nbsp;
+						</div>
+
+
+				<div class="col-md-12" align = "center">
+						<p class = "message"><a href="#" target="_blank">Forgot Password?</a></p>
+						            &nbsp;&nbsp;
+						</div>
+						</div>
+                </div>
+
+                
+
+            </div>
+			</form>
+			</div>
+			</div>	
+        </div>
+        </div>
+			
+ 
+    <!-- CONTENT-WRAPPER SECTION END-->
+
+		<script src='https://code.jquery.com/jquery-3.2.1.min.js'> </script>
+	<script>
+	$('.message a').click(function(){
+	$('form').animate({height: "toggle", opacity:"toggle"}, "slow");
+	});
+	</script>
+	
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+</html>
+

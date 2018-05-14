@@ -1,0 +1,439 @@
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 30px;
+}
+
+.set-radius-zero {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.form{
+    position:relative;
+    background: rgba(0, 0, 0, 0);
+    max-width: 1200px;
+    height: auto;
+    padding-bottom: auto;
+    margin-left: auto;  
+    margin-right: auto;
+
+
+
+}
+.form .message a{
+    text-decoration: none;
+    }
+
+    .form .login-form{
+        padding-bottom: 14px;
+    display: none;
+    }
+
+
+.page-head-line { /*login*/
+    font-weight: 900;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ff6b3d;
+    text-transform: uppercase;
+    color: #ff6b3d;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.btn-round {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.progress {
+    height: 8px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.login-icon {
+    height: 60px;
+width: 60px;
+padding: 13px;
+border-radius: 50%;
+font-size: 30px;
+margin-bottom: 20px;
+color: #fff;
+text-align: center;
+cursor:pointer;
+background-color:#F0677C;
+-webkit-border-radius:50%;
+    -moz-border-radius:50%;
+}
+/* =============================================================
+   HEADER SECTION STYLES
+ ============================================================ */
+
+header {
+    background-color: #65c6f8;
+    color: white;
+    padding-right: 40px;
+    text-align: right;
+     margin: auto;
+      margin-bottom: 40px;
+}
+
+
+
+/* =============================================================
+   LOGO SECTION STYLES
+ ============================================================ */
+.left-div {
+    text-align: RIGHT;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand { /*logo ng easearch sa dashboard*/
+    width: auto;
+    margin: 0px;
+    padding : 0px;
+
+}
+
+
+
+/* USER SETTINGS DIV */
+.user-settings-wrapper .nav > li > a {
+    /* Account logo*/
+    position: relative;
+    display: block;
+    padding: 15px 18px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: r;
+    color: #fff;
+}
+
+.center {
+    width: 500px;
+    
+}
+.user-settings-wrapper {
+    margin-top: 10px;
+}
+
+    .user-settings-wrapper li {
+        display: inline-block;
+    }
+
+    .user-settings-wrapper .dropdown-settings {
+        width: 200px;
+        padding: 10px;
+    }
+
+    .user-settings-wrapper .nav > li > a:hover,.user-settings-wrapper .nav > li > a:focus {
+        text-decoration: none;  /* Account logo change color*/
+        background-color: #ff6b3d!important;
+    }
+
+    .user-settings-wrapper img {
+        height: 64px;
+        width: 64px;
+        border: 1px solid #000000;
+    }
+
+    .user-settings-wrapper .dropdown-menu { /*dropdown avatar*/
+        margin-top: 20px;
+        border-radius: 0px!important;
+        -moz-border-radius: 0px!important;
+        -webkit-border-radius: 0px!important;
+    }
+
+    .user-settings-wrapper .btn {
+        border-radius: 0px!important;
+        -moz-border-radius: 0px!important;
+        -webkit-border-radius: 0px!important;
+    }
+
+    .user-settings-wrapper .media-heading {
+        padding-top: 10px;
+        
+    }
+    
+
+
+/* MENU LINKS SECTION*/
+
+.menu-section {
+    background-color: #c0e1f3;
+    
+}
+
+#menu-top a {
+    color: black; /*menus*/
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 10px 10px 10px;
+
+}
+
+.menu-top-active {
+    background-color: #f5d46f; /*CLICKED TAB*/
+}
+
+.menu-section .nav > li > a:hover,.menu-section .nav > li > a:focus {
+    background-color: #f5d46f!important; /*hover ng tabs*/
+}
+
+.menu-section .dropdown-menu > li > a:hover,.menu-section .dropdown-menu > li > a:focus {
+    background-color: #f5d46f!important; /*hover menulist*/
+}
+
+.navbar-inverse {
+    border-color: transparent;
+
+}
+
+.navbar-toggle {
+    background-color: RED;
+    border: 1px solid #fff;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    background-color: #65c6f8; /*header*/
+
+}
+
+/*==============================================
+    DASHBOARD STYLES    
+    =============================================*/
+.div-square {
+    padding:5px;
+    border:3px double #e1e1e1;
+    -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+    border-radius:8px;
+    margin:5px;
+
+}
+
+.div-square> a,.div-square> a:hover {
+    color:#808080;
+     text-decoration:none;
+}
+
+#map {
+    height: 400px;
+    width : 100%;
+}
+/* =============================================================
+   FOOTER SECTION STYLES
+ ============================================================ */
+footer {
+    height: auto;
+    margin-top :40px;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #c6c6c6;
+}
+   
+
+/*==============================================
+    DASHBOARD  STYLES    
+ =============================================*/
+
+/* DASHBOARD ICONS */
+
+.bk-clr-one {
+    background-color: #3ad8f4;
+}
+
+.bk-clr-two {
+    background-color: #F94C4C;
+}
+
+.bk-clr-three {
+    background-color: #119c7e;
+}
+
+.bk-clr-four {
+    background-color: #b739b9;
+}
+
+.dashboard-div-icon {
+    height: 75px;
+    width: 75px;
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.dashboard-div-wrapper {
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+    .dashboard-div-wrapper .progress {
+        height: 2px;
+    }
+
+/* NOTICE BOARD */
+
+
+.notice-board .panel {
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+.notice-board ul {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.notice-board li {
+    padding: 10px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+    .notice-board li span {
+        margin-right: 10px;
+        border: 1px solid #DBDBDB;
+        padding: 5px;
+    }
+
+    .notice-board li a, li a:hover {
+        text-decoration: none;
+        color: #000;
+    }
+
+/* SOCIAL BUTTONS */
+.btn-social {
+    color: white;
+    opacity: 0.8;
+}
+
+    .btn-social:hover {
+        color: white;
+        opacity: 1;
+        text-decoration: none;
+    }
+.btn-new {
+    background-color: #ff3232;
+    width : 200px;
+    height : 60px;
+    font-size: 14pt;
+    color: white;
+    padding: 15px;
+}
+.btn-facebook {
+    background-color: #3b5998;
+}
+
+.btn-twitter {
+    background-color: #00aced;
+}
+
+.btn-linkedin {
+    background-color: #0e76a8;
+}
+
+.btn-google {
+    background-color: #c32f10;
+}
+/*==============================================
+    slider   
+ =============================================*/
+
+               .slider-holder
+        {
+            width: 560px;
+            height: 420px;
+
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 100px;
+            padding-right: 100px;
+        overflow: hidden;
+
+        }
+        
+        .image-holder
+        {
+            width: 2200px;
+            background: rgba(0, 0, 1, 0.5);
+            height: 400px;
+            clear: both;
+            position: relative;
+            
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+        
+        .slider-image
+        {
+            float: left;
+            margin: 25px;
+            position: relative;
+        }
+        
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+        
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -340px;
+        }
+        
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -680px;
+        }
+        #slider-image-4:target ~ .image-holder
+        {
+            left: -1020px;
+        }
+        
+        .button-holder
+        {
+            position: relative;
+            top: -30px;
+        }
+        
+        .slider-change
+        {
+            display: inline-block;
+            height:10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: brown;
+        }
+
+    #map {
+        height: 500px;
+        width: 100%;
+        margin:0;
+        padding : 0;
+    }
